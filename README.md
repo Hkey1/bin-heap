@@ -51,12 +51,8 @@ custom comparison function
 
 ```js
 var heap = new Heap(function(a, b) {
-    return a.foo - b.foo;
+    return ...;
 });
-heap.push({foo: 3});
-heap.push({foo: 1});
-heap.push({foo: 2});
-heap.pop(); // {foo: 1}
 ```
 
 Document
@@ -121,7 +117,7 @@ Pop the smallest item off the heap and return it.
 
 Return the smallest item of the heap.
 
-**updateItem(item)**
+**updateItemPos(item)**
 
 Update the position of the given item in the heap.
 This function should be called every time the item is being modified.
@@ -133,3 +129,9 @@ Determine whether the heap is empty.
 **size()**
 
 Get the number of elements stored in the heap.
+
+**getItem()**
+getItem by hash
+
+**contains()**
+return true if item in heap
