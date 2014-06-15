@@ -131,7 +131,9 @@ Determine whether the heap is empty.
 Get the number of elements stored in the heap.
 
 **getItem()**
+
 getItem by hash
 
 **contains()**
+
 return true if item in heap
