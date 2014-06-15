@@ -1,0 +1,29 @@
+{
+    "name": "bin-heap",
+    "version": "0.2.0",
+    "main": "./lib/heap.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Andrey Belousoff <a.v.belousoff@gmail.com>",
+    "license": "MIT",
+    "description": "Binary heap for node.js",
+    "keywords": [
+        "heap"
+    ],
+    "dependencies": {
+    },
+    "engines": {
+        "node": ">=0.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/hkey1/bin-heap"
+    },
+    "readme":"Binary heap for node.js",
+    "readmeFilename": "Readme.md",
+    "bugs": {
+        "url": "https://github.com/hkey1/bin-heap/issues"
+    },
+    "homepage": "https://github.com/hkey1/bin-heap"
+}
